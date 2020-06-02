@@ -1,0 +1,13 @@
+'use strict';
+
+import index
+
+let checker = index;
+if (checker === fn){
+  console.log('Done right')
+} else {
+  console.log('Error')
+}
+
+
+
