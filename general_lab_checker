@@ -1,0 +1,29 @@
+'use strict';
+let labNumber ;
+
+switch (labNumber) {
+  case 11:
+    const {fn} = require('./index1_1.js');
+
+    if (fn === fn){
+      console.log('Done right')
+    } else {
+      console.log('Error')
+    }
+    break;
+  case 12:
+    const {incNumber} = require('./index1_2.js');
+
+    let number = 10;
+
+    if (incNumber(number)!== ++number){
+      throw new Error('Something went wrong')
+    } else {
+      console.log('Success!');
+      console.log(number)
+    }
+    break;
+  case 13
+    
+
+}
