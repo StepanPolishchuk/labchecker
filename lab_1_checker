@@ -1,9 +1,8 @@
 'use strict';
 
-import index
+const {fn} = require('./index1_1.js'); 
 
-let checker = index;
-if (checker === fn){
+if (fn === fn){
   console.log('Done right')
 } else {
   console.log('Error')
