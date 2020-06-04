@@ -25,7 +25,7 @@ switch (labNumber) {
     break;
   case 13:
 
-    const {inc1} = require('./index1_4.js');{
+    const {inc1} = require('./index7_1.js');{
     const argument = { n: 5};
     const output = inc1(argument);
     if(typeof output == 'undefined'){
@@ -36,26 +36,35 @@ switch (labNumber) {
     break
   }
   case 14:
-    const {countTypesInArray} = require('./index1_4.js');{
+    const {countTypesInArray} = require('./index7_1.js');
       let counterOfTypes = [];
-      
+
       for (let i = 0, j = counterOfTypes.length; i < j; i++) {
       const type = typeof counterOfTypes[i];
       const number = counterOfTypes[type] || 0;
       counterOfTypes[type] = number + 1;
     }
-    return counterOfTypes;
+    return counterOfTypes;{
 
-    break
-  }
+    break}
+
   case 21:
     const {name} = require('./index2_1.js');
     if (typeof name === 'string'){
       console.log('Good job')
     } else {
-      throw throw new Error('Name must be string')
+      throw  new Error('Name must be string')
     }
     break;
-  case 22:
+  case 71:
+    const {removeElement} = require('./index7_1.js');
+    const index = array.indexOf(item);
+    if (index !== -1) {
+      array = array.splice(index, 1);
+      return array
+    }
 
-}
+    if(removeElement(array,item) !== array){
+      throw new Error('Fix something')
+    }
+    break
