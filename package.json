@@ -1,0 +1,22 @@
+{
+  "name": "labchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "general_lab_checker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StepanPolishchuk/labchecker.git"
+  },
+  "author": "Stepan Polishchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StepanPolishchuk/labchecker/issues"
+  },
+  "homepage": "https://github.com/StepanPolishchuk/labchecker#readme",
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
