@@ -40,7 +40,7 @@ case 13: {
 case 14: {
   const { countTypesInArray } = require('./index1_4.js');
   const arrayOfTypes = [1, false, 'Hello', 8, 2, true, false, 'a', 'b'];
-  const types = function numberOfTypesInArray(arrayOfTypes) {
+  const types = (arrayOfTypes) => {
     const counters = {};
     for (const element of arrayOfTypes) {
       const type = typeof element;
